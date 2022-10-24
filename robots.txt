@@ -1,3 +1,0 @@
-allow: index.html
-allow: contact.html
-disallow: 404.html
