@@ -3,6 +3,7 @@ body{
   color: white;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  margin: 0px;
 }
 nav{
   display: flex;
@@ -10,7 +11,7 @@ nav{
 .navigation{
   display: flex;
   padding: 3rem 2rem;
-  border: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
   gap: 1rem;
   flex-basis: calc(100% / 3);
 }
@@ -96,4 +97,8 @@ a{
 }
 .ferr{
   text-align: center;
+}
+.nbm{
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
